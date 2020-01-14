@@ -1,4 +1,4 @@
-package ws.slink.parser;
+package com.dxfeed.parser;
 
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
@@ -8,9 +8,9 @@ import org.apache.commons.lang.time.DurationFormatUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.DependsOn;
 import org.springframework.stereotype.Component;
-import ws.slink.config.AppConfig;
-import ws.slink.model.ProcessingResult;
-import ws.slink.service.AwsS3Service;
+import com.dxfeed.config.AppConfig;
+import com.dxfeed.model.ProcessingResult;
+import com.dxfeed.service.AwsS3Service;
 
 import java.io.File;
 import java.time.Instant;

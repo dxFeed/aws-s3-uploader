@@ -1,4 +1,4 @@
-package ws.slink.service;
+package com.dxfeed.service;
 
 import com.amazonaws.auth.AWSCredentials;
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
@@ -14,7 +14,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ws.slink.config.AppConfig;
+import com.dxfeed.config.AppConfig;
 
 import javax.annotation.PostConstruct;
 import java.io.File;
